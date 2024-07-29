@@ -20,7 +20,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "prisma": "npx prisma generate && prisma db push",
     "nest": "nest g module -- $1 && nest g service -- $1 && nest g controller -- $1",
-    "git": "git status && git add . && git commit -m -- $1"
+    "git": "git status && git add . && git commit -m -- $1 && git push"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
